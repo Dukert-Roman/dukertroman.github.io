@@ -1,0 +1,44 @@
+body {
+	width: 1920px;
+	margin: 0;
+}
+header {
+	background: rgb(202,219,237);
+	margin: 0px;
+	height: 100px;
+}
+header:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+ul {
+	list-style: none;position: relative;
+    top: 0px;
+    left: 0;
+    right: 0;
+    margin: 0 auto; 
+	
+}
+a {
+	text-decoration: none;
+}
+.main-menu {
+
+}
+.main-menu li {
+	float: left;
+	text-align: center;
+	height: 50px;
+	padding: 25px;
+	
+	/*width: 177px;*/
+}
+.main-menu a {
+	display: block;
+	color: rgb(45,114,184);
+	text-align: center;
+	line-height: 50px;
+	border-right: 1px solid;
+	border-color: rgb(45,114,184);
+}
